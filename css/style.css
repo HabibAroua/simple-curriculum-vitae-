@@ -1,0 +1,56 @@
+body
+{
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+	background-color: #E2E5E0;
+}
+
+*{box-sizing: border-box ;}
+
+
+.post
+{
+	float: left;
+	width: 66%;
+	margin: 0 auto;
+	background-color: #fff;
+	height: 100px;
+}
+
+.post_thumb
+{
+	width: 35%;
+	float: right;
+}	
+
+@media (min-width: 800px)
+{
+	.post
+	{
+		float: none;
+		width: 100%;
+	}
+}
+
+.gallery_item
+{
+	float: left;
+	width: 33.33%;
+}
+
+@media (min-width: 800px)
+{
+	.gallery_item
+	{
+		width: 25%;
+	}
+}
+
+@viewport 
+{
+   width: device-width; /* largeur du viewport */
+   zoom: 1; /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
+}
