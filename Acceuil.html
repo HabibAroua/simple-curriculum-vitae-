@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+	    <title>Acceuil</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+	    <div  id ="menu" style="background-color:#E2E5E0; float:left">
+		    <fieldset>
+			    <legend>Menu</legend>
+				<ol class="navbar">
+				    <li><a href="Formation.html">Formation</a></li>
+					<li><a href="Experience.html">Expériences professionnelles</a></li>
+					<li><a href="Interet.html">Centres dinteret</a></li>
+				</ol>
+			</fieldset>
+		</div>
+	    <div style="margin-right : 200px">
+	        <fieldset id="fSet" style="float:left">
+		        <legend>Contact</legend>
+				    <form method="POST">
+			            <table>
+			                <tr>
+				                <td>Nom :</td>
+                                <td><input type="text" id="txtNom"/></td>					
+				            </tr>
+				            <tr>
+				                <td>Prenom :</td>
+					            <td><input type="text" id="txtPrenom" /></td>
+				            </tr>
+				            <tr>
+				                <td>Message</td>
+					            <td><textarea id="txtMessage" ></textarea></td>
+				            </tr>
+			            </table>
+			            <input type="submit" id="btEnvoyer" value="Envoyer" \>
+			            <input type="reset" id="btAnnuler" value="Annuler" \>
+					</form>
+		    </fieldset>
+		</div>
+	</body>
+</html>
