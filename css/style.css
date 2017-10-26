@@ -104,3 +104,14 @@ img
 	color:firebrick; 
 	display:inline;
 }
+
+#divRuby
+{
+	position:absolute ;
+	top: 80% ;
+}
+
+ruby
+{
+	border-top:dashed 1px grey;
+}
