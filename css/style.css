@@ -115,3 +115,9 @@ ruby
 {
 	border-top:dashed 1px grey;
 }
+
+iframe
+{
+	width:600px;
+	height:900px;
+}
